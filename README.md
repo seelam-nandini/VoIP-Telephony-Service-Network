@@ -17,7 +17,7 @@ To emphasize scalability and availability, we are required to provide a complete
 5. **Subnets:** Each department will be accessing two subnetworks, for example, data and voice subnets.
 6. **Basic settings:** Configure basic device settings such as hostnames, console passwords, enabling passwords, banner messages, encrypting all passwords, and disabling IP domain lookup.
 7. **DHCP Server:** For voice (VoIP), use the respective router as the DHCP server, while for data, use the DHCP server device at the server-side site.
-   **VLANs:** Each department will have two VLANs. One for data and another for voice. All IP phones in the network should be in VLAN 100.
+8. **VLANs:** Each department will have two VLANs. One for data and another for voice. All IP phones in the network should be in VLAN 100.
 9. **Inter-VLAN Routing:** Use a router-on-a-stick to enable inter-VLAN routing on the network. Create subinterfaces for both data and voice VLANs.
 10. **IP Addressing:** All devices in the network are expected to obtain an IP address dynamically from the respective DHCP servers, while the devices in the server room are to be allocated IP addresses statically.
 11. **Routing protocol:** Use OSPF as the routing protocol to advertise routes on the routers.
